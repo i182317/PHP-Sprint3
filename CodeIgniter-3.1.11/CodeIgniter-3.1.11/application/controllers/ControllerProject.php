@@ -85,7 +85,12 @@ class ControllerProject extends CI_Controller
 
 	}
 
-	public function addTask() {
+	public function addTask()
+	{
+		$idProjectSelected = $this->session->userdata('idProjectSelected');
+		if ($idProjectSelected != ['-1'] && $idProjectSelected != ['']) {
+		redirect('controllerCreationTaches');
+		}
 
 	}
 
