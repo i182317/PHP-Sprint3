@@ -88,10 +88,12 @@ class ControllerProject extends CI_Controller
 	public function addTask()
 	{
 		$idProjectSelected = $this->session->userdata('idProjectSelected');
-		if ($idProjectSelected != ['-1'] && $idProjectSelected != ['']) {
-		redirect('controllerCreationTaches');
+		if ($idProjectSelected != '-1' && $idProjectSelected != '') {
+			redirect('controllerCreationTaches');
 		}
-
+		else {
+			redirect('controllerProject');
+		}
 	}
 
 	public function addCollab() {
