@@ -1,0 +1,70 @@
+body {
+    background: #76B852;
+    color: #999;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    margin: 3em;
+}
+
+.body_m {
+    background: #999;
+}
+
+
+.social:hover {
+    color: #fff;
+}
+
+img {
+    border-radius: 50%;
+    height: 120px;
+}
+
+
+#titulo {
+    font-size: 20px;
+}
+
+
+
+
+
+.Profilecontainer {
+    align-self: center;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.front {
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+
+}
+.front :first-child{
+    align-self: center;
+    align-items: flex-start;
+}
+.projet {
+    align-self: center;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.task {
+    background: #fff;
+    text-align: center;
+    align-self:center;
+}
+.titres {
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    align-self: center;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+
+
