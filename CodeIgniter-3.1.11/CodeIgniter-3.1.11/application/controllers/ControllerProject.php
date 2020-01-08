@@ -82,7 +82,7 @@ class ControllerProject extends CI_Controller
 	}
 
 	public function addProject() {
-
+		redirect('controllerCreationProject');
 	}
 
 	public function addTask()
